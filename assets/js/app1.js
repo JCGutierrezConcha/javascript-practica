@@ -18,8 +18,7 @@ form.addEventListener('submit', (event) => {
     const mySubject = inputSubject.value;
     const myMessage = inputMessage.value;
 
-    let validacion = validar(myName, mySubject, myMessage);
-    if (validacion) {
+    if (validar(myName, mySubject, myMessage)) {
         result.innerHTML = "Mensaje enviado con éxito !!!";
     }
 })
