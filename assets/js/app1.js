@@ -2,10 +2,10 @@ const inputName = document.getElementById("nombre");
 const inputSubject = document.getElementById("asunto");
 const inputMessage = document.getElementById("mensaje");
 
-let errorNombre = document.querySelector(".errorNombre");
-let errorAsunto = document.querySelector(".errorAsunto");
-let errorMensaje = document.querySelector(".errorMensaje");
-let result = document.querySelector(".resultado");
+let errorNombre = document.querySelector("#errorNombre");
+let errorAsunto = document.querySelector("#errorAsunto");
+let errorMensaje = document.querySelector("#errorMensaje");
+let result = document.querySelector("#resultado");
 
 
 let form = document.getElementById("formulario")
