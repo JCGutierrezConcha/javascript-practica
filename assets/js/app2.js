@@ -6,26 +6,34 @@ const btn_5 = document.getElementById("btn-5");
 const btn_6 = document.getElementById("btn-6");
 const caja = document.getElementById("caja");
 
+color1 = btn_1.style.backgroundColor;
+color2 = btn_2.style.backgroundColor;
+color3 = btn_3.style.backgroundColor;
+color4 = btn_4.style.backgroundColor;
+color5 = btn_5.style.backgroundColor;
+color6 = btn_6.style.backgroundColor;
+
+
 btn_1.addEventListener('click', () => {
-    caja.style.backgroundColor = '#e53e3e';
+    caja.style.backgroundColor = color1;
 });
 
 btn_2.addEventListener('click', () => {
-    caja.style.backgroundColor = '#dd6b20';
+    caja.style.backgroundColor = color2;
 })
 
 btn_3.addEventListener('click', () => {
-    caja.style.backgroundColor = '#faf089';
+    caja.style.backgroundColor = color3;
 });
 
 btn_4.addEventListener('click', () => {
-    caja.style.backgroundColor = '#48bb78';
+    caja.style.backgroundColor = color4;
 });
 
 btn_5.addEventListener('click', () => {
-    caja.style.backgroundColor = '#81e6d9';
+    caja.style.backgroundColor = color5;
 });
 
 btn_6.addEventListener('click', () => {
-    caja.style.backgroundColor = '#d53f8c';
+    caja.style.backgroundColor = color6;
 });
